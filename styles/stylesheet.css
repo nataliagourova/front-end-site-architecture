@@ -1,0 +1,219 @@
+/* .grid-container div {
+    border: 1px solid red;
+  } */
+  .grid-container {
+    display: grid;
+    text-align: left;
+    grid-gap: 20px 30px;
+  }
+  .grid-item-1 {
+    grid-column: 1 / span 4;
+    grid-row: 1 / 2;
+  }
+  .grid-item-2 {
+    grid-column: 5 / span 7;
+    grid-row: 1 / 2;
+    overflow:hidden;
+    padding-bottom: 100%;
+    position:relative;
+  }
+  .grid-item-2 iframe{
+    left:0;
+    top:5%;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+  .grid-item-22 {
+    grid-column: 5 / span 7;
+    grid-row: 2 / 3;
+    overflow:hidden;
+  }  
+  .grid-item-3 {
+    grid-column: 1 /span 4;
+    grid-row: 2 / 3;
+  }
+  .grid-item-4 {
+    grid-column: 1 /span 4;
+    grid-row:  3 / 4;
+  }
+  .grid-item-5 {
+    grid-column: 1 /span 4;
+    grid-row:  4 / 5;
+  }  
+  .grid-item-11 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / 2;
+    background-color: #1b447f;
+    text-align: justify;
+  }
+  .grid-item-12 {
+    grid-column: 2 / span 7;
+    grid-row: 1 / 2;
+    background-color: #1b447f;
+    color: #ffffff;
+    padding: 0 2rem  0 2rem;
+  }
+  .grid-item-13 {
+    grid-column: 1 / span 3;
+    grid-row:  3 / 4;
+    background-color: #1b447f;
+  } 
+  .grid-item-14 {
+    grid-column: 2 / span 7;
+    grid-row:  3 / 4;
+    background-color: #1b447f;
+    color: #ffffff;
+    padding: 0 2rem  0 2rem;
+  } 
+  .grid-item-15 {
+    grid-column: 1 / span 3;
+    grid-row:  5 / 6;
+    background-color: #1b447f;
+  } 
+  .grid-item-16 {
+    grid-column: 2 / span 7;
+    grid-row:  5 / 6;
+    background-color: #1b447f;
+    color: #ffffff;
+    padding: 0 2rem  0 2rem;
+  } 
+  .grid-container {
+    grid-template-columns: 14% 14% 14% 14% auto 14% 1px;
+    grid-template-rows: 25% 50% auto;
+    justify-content: space-evenly;
+  }
+  .bold {
+      font-weight: bold;
+  }
+ul {
+    padding: 1.25rem;
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.25rem 0.75rem;
+}
+ul a {
+    color: #fff;
+    text-decoration: none;
+}
+ul a:hover {
+    text-decoration: underline;
+}
+ol li {
+    list-style-type: none;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.content-footer {
+    flex: 1;
+    text-align: left;
+    padding-left: 7rem;
+    padding-right: 15rem;
+}
+.content-lesson {
+    flex: 1;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    color: #444444;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 40px;    
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 24px;        
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 17px;    
+}
+header{
+    background-color: #03a3df;
+    padding: 2rem 7rem 2rem 7rem;
+}
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+}
+header a:hover {
+    background-color: #ddd;
+    color: #444444;
+}
+.header-right {
+    float: right;
+    text-align:center;
+}
+footer {
+    flex-shrink: 0;
+    margin-top: 3rem;
+    padding: 2rem;
+    color: white;
+    background-image: url('../images/footerImage.jpeg');
+    z-index:1;
+    height:18rem;
+    width:auto;
+    text-align: left;
+    font-size: 14px;
+    background-size: cover;
+}
+.resize {
+    width: 7rem;
+    height: auto;
+}
+.portraits {
+    width: 30%;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+#logo-h {
+    width: 15rem;
+    height: auto;
+}
+.space {
+    padding-top: 2rem;
+}
+.profile-w {
+    color: #ffffff;
+}
+.profile-y {
+    color: #ecb722;
+    font-size: 10px;
+}
+.about {
+    font-size: 24px;    
+}
+.call-out{
+    font-size: 30;
+    color: #03a3df;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    color: #ecb722;
+}
+.dark-blue {
+    color: #1b447f;
+}
