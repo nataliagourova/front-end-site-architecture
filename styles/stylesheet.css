@@ -1,9 +1,9 @@
-/* .grid-container div {
+.grid-container div {
     border: 1px solid red;
 }
 .grid-con div {
     border: 1px solid red;
-} */
+}
 .grid-container {
     display: grid;
     text-align: left;
@@ -30,6 +30,7 @@ left:0;
 height:100%;
 width:100%;
 position:absolute;
+overflow:hidden;
 }
 .grid-item-22 {
 grid-column: 5 / span 7;
@@ -37,8 +38,8 @@ grid-row: 3 / 4;
 overflow:hidden;
 }  
 .grid-item-3 {
-grid-column: 1 /span 4;
-grid-row: 2 / 3;
+grid-column: 1 / span 5;
+grid-row: 2 / 3
 }
 .grid-item-4 {
 grid-column: 1 /span 4;
@@ -89,12 +90,12 @@ padding: 0 2rem  0 2rem;
 } 
 .grid-container {
 grid-template-columns: 14% 14% 14% 14% auto 14% 1px;
-grid-template-rows: 13rem 13rem 13rem 13rem 25rem 1px;
+grid-template-rows: 13% 18% 13% 18% 33% 1px;
 justify-content: space-evenly;
 }
 .grid-con {
 grid-template-columns: 14% 14% 14% 14% auto 14% 1px;
-grid-template-rows: 13rem 60rem 34rem 1rem;
+grid-template-rows: 10% 48% 34% 13% 21%;
 justify-content: space-evenly;
 }
 .bold {
@@ -110,7 +111,7 @@ ul li {
     margin: 0.25rem 0.75rem;
 }
 ul a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 ul a:hover {
@@ -160,7 +161,7 @@ h3 {
     font-size: 17px;    
 }
 header{
-    background-color: #03a3df;
+    background-color: #037EAB;
     padding: 2rem 7rem 2rem 7rem;
 }
 header a {
@@ -221,7 +222,7 @@ footer {
 }
 .call-out{
     font-size: 30px;
-    color: #03a3df;
+    color: #037EAB;
 }
 hr.style-one {
     border: 0;
@@ -234,4 +235,40 @@ hr.style-one {
 .class-header {
     color: #1b447f;
     text-align: center;    
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+    font-size: 1px;
+  }
+  .hidden:focus {
+    left: 0;
+  }
+  .sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+}
+.margin {
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
