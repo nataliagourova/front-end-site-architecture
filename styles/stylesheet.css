@@ -1,13 +1,13 @@
-.grid-container div {
+/* .grid-container div {
     border: 1px solid red;
 }
 .grid-con div {
     border: 1px solid red;
-}
+} */
 .grid-container {
     display: grid;
     text-align: left;
-    grid-gap: 20px 30px;
+    grid-gap: 20px 20px;
 }
 .grid-con {
     display: grid;
@@ -95,7 +95,7 @@ justify-content: space-evenly;
 }
 .grid-con {
 grid-template-columns: 14% 14% 14% 14% auto 14% 1px;
-grid-template-rows: 10% 48% 34% 13% 21%;
+grid-template-rows: 10% 48% 35% 10% 5%;
 justify-content: space-evenly;
 }
 .bold {
